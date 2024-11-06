@@ -66,6 +66,26 @@ ScrollReveal().reveal('.show-modal', {
   ...scrollRevealOption,
   delay: 1000,
 });
+ScrollReveal().reveal('.header__image', {
+  ...scrollRevealOption,
+  origin: 'right',
+  delay: 500,
+});
+ScrollReveal().reveal('.header__content', {
+  ...scrollRevealOption,
+  origin: 'left',
+  delay: 750,
+});
+ScrollReveal().reveal('.contacting__content', {
+  ...scrollRevealOption,
+  origin: 'bottom',
+  delay: 1000,
+});
+ScrollReveal().reveal('.contact__container', {
+  ...scrollRevealOption,
+  origin: 'bottom',
+  delay: 1000,
+});
 //Modal handling
 //Modal handling
 //Modal handling
