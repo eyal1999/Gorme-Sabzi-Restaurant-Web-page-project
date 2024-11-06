@@ -586,3 +586,38 @@ nav {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+.contacting__content {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  font-weight: 900;
+  line-height: 3rem;
+}
+.contacting__content h1 {
+  color: var(--text-dark);
+}
+.contacting__content #Reservations {
+  color: var(--text-dark);
+}
+.contacting__content #Hours {
+  color: var(--primary-color);
+}
+.contact__form {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  font-weight: 900;
+  line-height: 3rem;
+}
+
+.contact__form #form__field {
+  border-radius: 10px;
+}
