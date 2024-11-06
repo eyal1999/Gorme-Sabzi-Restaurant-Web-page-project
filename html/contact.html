@@ -59,9 +59,10 @@
         </div>
         <div class="contact__form">
             <h2>Our Contact Form</h2>
-            <form action="https://formsubmit.co/eyal1200000@gmail.com" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <fieldset id="form__field">
                     <legend>Send Us A Message</legend>
+                    <input type="hidden" name="access_key" value="b056c489-3bb3-4af1-a24c-5a38d61e7612">
                     <p id="Client__Name">
                         <label for="Name:"><u>Name</u>: </label><input type="text" name="yourName" id="yourName"
                             placeholder="your name" autocomplete="on" required />
@@ -81,8 +82,8 @@
                     </p>
                 </fieldset>
                 <div class="Form__Buttons">
-                    <button type="submit">Send</button>
-                    <button type="reset">Reset</button>
+                    <button type="submit">Send <i class="ri-mail-send-line"></i></button>
+                    <button type="reset">Reset <i class="ri-reset-left-line"></i></button>
                 </div>
             </form>
         </div>
