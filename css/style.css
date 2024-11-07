@@ -625,6 +625,7 @@ nav {
   gap: 20px;
   background-color: rgb(253, 221, 216);
   border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
 }
 .contact__title h2 {
   margin: 10px;
@@ -696,12 +697,16 @@ nav {
 .Form__Buttons img {
   height: 15px;
 }
+
 .icons {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
   position: fixed;
   z-index: 100;
+}
+.icons a {
+  color: white;
 }
 .icons ul {
   padding: initial;
