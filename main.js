@@ -86,10 +86,8 @@ ScrollReveal().reveal('.contact__container', {
   origin: 'bottom',
   delay: 1000,
 });
-//Modal handling
-//Modal handling
-//Modal handling
 
+//Swiper handling
 const swiper = new Swiper('.swiper', {
   loop: true,
 
@@ -97,7 +95,11 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
 });
+//Swiper handling
 
+//Modal handling
+//Modal handling
+//Modal handling
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
@@ -150,5 +152,3 @@ document.addEventListener('keydown', function (e) {
 //Modal handling
 //Modal handling
 //Modal handling
-
-//Swiper handling

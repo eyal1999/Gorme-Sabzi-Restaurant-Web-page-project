@@ -715,6 +715,7 @@ nav {
   margin-top: 5px;
   color: #fff;
 }
+
 .facebook {
   background: #3b5998;
 }
@@ -732,6 +733,6 @@ nav {
 }
 .icons ul li:hover {
   padding-left: 30px;
-  width: 80px;
+  width: 50px;
   transition: 1s;
 }
