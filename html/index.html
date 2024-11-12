@@ -4,28 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="Eyal Barhordary" content="Gorme Sabzi Restaurant Page">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="/favicon_io/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrap.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <title>Gorme Sabzi Restaurant</title>
 </head>
 
 <body>
+  <div class="icons">
+    <ul>
+      <li class="facebook"><a href="https://www.facebook.com/gormesabzirestaurant/?locale=he_IL" target="_blank">
+          <i class="fa-brands fa-facebook fa-lg"></i>
+        </a></li>
+      <li class="instagram"><a href="https://www.instagram.com/gorme_sabzi_rest/" target="_blank"><i
+            class="fa-brands fa-instagram fa-lg"></i></a>
+      </li>
+      <li class="phone"><a href="tel:035080709" target="_blank"><i class="fa fa-phone"></i></a></li>
+      <li class="navigate"><a
+          href="https://ul.waze.com/ul?place=ChIJr4h_w51MHRUR_C_KhIPCTb4&ll=32.05976760%2C34.77232950&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+          target="_blank"><i class="fa-brands fa-waze fa-lg"></i></a></li>
+      <li class="order"><a
+          href="https://wolt.com/he/isr/tel-aviv/restaurant/gourmet-sabzi?srsltid=AfmBOorulUb1ZJulTZkYY35c1vrDGcLOEOJrrAKH3l5CDJTCQwBN4JuZ"
+          target="_blank"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
+  </div>
   <nav>
     <div class="nav__header">
       <div class="logo nav__logo">
         <a href="index.html">Gorme<span>Sabzi</span></a>
       </div>
       <div class="nav__menu__btn-menu" id="menu-btn">
-        <span><i class="ri-menu-line"></i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
       </div>
     </div>
     <ul class="nav__links" id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="menu.html">Menu</a></li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
@@ -46,7 +60,8 @@
         Israeli-Persian cuisine that you won't find anywhere else.
       </p>
       <div class="header__btn">
-        <button class="btn">Get Started</button>
+        <button class="btn" onclick="window.location.href='about.html';">Discover more here <i
+            class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </header>
@@ -93,8 +108,8 @@
       </div>
     </div>
     <div class="Full__Menu__btn">
-      <button class="btn" onclick="window.location.href='menu.html';">Explore Full Menu <span><i
-            class="ri-arrow-right-line"></i></span></button>
+      <button class="btn" onclick="window.location.href='menu.html';">Explore Full Menu <span>
+          <i class="fa-solid fa-arrow-right"></i></span></button>
     </div>
 
   </section>
@@ -113,9 +128,9 @@
       </p>
     </div>
     <div class="explore__btn">
-      <button class="btn">
-        Explore story <span><i class="ri-arrow-right-line"></i></span>
-      </button>
+      <a href="https://wolt.com/he/isr/tel-aviv/restaurant/gourmet-sabzi?srsltid=AfmBOorulUb1ZJulTZkYY35c1vrDGcLOEOJrrAKH3l5CDJTCQwBN4JuZ"
+        target="_blank">
+        <button class="btn">Order Now! <span><i class="fa-solid fa-arrow-right"></i></span></button></a>
     </div>
   </section>
 
@@ -144,11 +159,8 @@
           <div class="swiper-slide">
             <div class="client__card">
               <p>
-                "Gorme Sabzi's cilinary expertise never
-                fails to impress! every dish is a
-                masterpiece, bursting with flavor and
-                freshness."
-              </p>
+                "Gorme Sabzi' s cilinary expertise never fails to impress! every dish is a masterpiece, bursting with
+                flavor and freshness." </p>
               <img src="/Gorme Sabzi Bijan Logo.png" alt="client">
               <h4>Bijan Barhordary</h4>
               <h5>Business Owner</h5>
@@ -174,14 +186,14 @@
           <div class="swiper-slide">
             <div class="client__card">
               <p>
-                "Gorme Sabzi has been my go-to for all my
-                catering needs. Their attention to detail
-                and exceptional customer service make every
-                event a success."
+                "These dishes evoke great nostalgia for many people in Iran."
               </p>
-              <img src="/Eyal Shani.jpg" alt="client">
-              <h4>Chef Eyal Shani</h4>
-              <h5>Celebrity Chef</h5>
+              <img src="/AyalaHason.jpg" alt="client">
+              <h4>Ayala Hason</h4>
+              <h5>Professional Journalist</h5>
+              <p>Discover the full story behind our journey—head to our <a href="about.html">About page</a>
+                to watch Ayala Hasson's exclusive interview with us!
+              </p>
             </div>
           </div>
         </div>
@@ -206,9 +218,9 @@
       <div class="footer__col">
         <h4>Information</h4>
         <ul class="footer__links">
-          <li><a href="#">About Us</a></li>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#">Catering Options</a></li>
         </ul>
       </div>
       <div class="footer__col">
@@ -228,28 +240,11 @@
         </ul>
       </div>
       <div class="footer__bar">
-        Copyright © 2024 <a href="www.linkedin.com/in/eyal-barhordary" target="_blank">Eyal Barhordary</a>. All rights
+        Copyright © 2024 <a href="https://il.linkedin.com/in/eyal-barhordary" target="_blank">Eyal Barhordary</a>. All
+        rights
         reserved.
       </div>
   </footer>
-
-  <div class="icons">
-    <ul>
-      <li class="facebook"><a href="https://www.facebook.com/gormesabzirestaurant/?locale=he_IL" target="_blank">
-          <i class="fa fa-facebook"></i>
-        </a></li>
-      <li class="instagram"><a href="https://www.instagram.com/gorme_sabzi_rest/" target="_blank"><i
-            class="fa fa-instagram"></i></a>
-      </li>
-      <li class="phone"><a href="tel:035080709" target="_blank"><i class="fa fa-phone"></i></a></li>
-      <li class="navigate"><a
-          href="https://ul.waze.com/ul?place=ChIJr4h_w51MHRUR_C_KhIPCTb4&ll=32.05976760%2C34.77232950&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-          target="_blank"><i class="ri-road-map-line"></i></a></li>
-      <li class="order"><a
-          href="https://wolt.com/he/isr/tel-aviv/restaurant/gourmet-sabzi?srsltid=AfmBOorulUb1ZJulTZkYY35c1vrDGcLOEOJrrAKH3l5CDJTCQwBN4JuZ"
-          target="_blank"><i class="ri-e-bike-2-fill"></i></a></li>
-    </ul>
-  </div>
 
   <script src=" https://kit.fontawesome.com/fde4289791.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
