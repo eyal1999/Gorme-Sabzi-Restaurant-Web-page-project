@@ -89,10 +89,14 @@ ScrollReveal().reveal('.contact__container', {
   origin: 'bottom',
   delay: 1000,
 });
-ScrollReveal().reveal('.article-card', {
+ScrollReveal().reveal('.media-spotlight h2', {
   ...scrollRevealOption,
-  origin: 'bottom',
+  origin: 'top',
   delay: 500,
+});
+ScrollReveal().reveal('.articles-grid', {
+  ...scrollRevealOption,
+  delay: 750,
 });
 
 //Swiper handling
