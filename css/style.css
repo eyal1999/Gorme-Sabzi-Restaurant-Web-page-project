@@ -772,6 +772,9 @@ nav {
   overflow: hidden;
   transition: transform 0.3s;
 }
+.article-card iframe {
+  border: none;
+}
 
 .article-card:hover {
   transform: translateY(-5px);
