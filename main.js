@@ -89,6 +89,11 @@ ScrollReveal().reveal('.contact__container', {
   origin: 'bottom',
   delay: 1000,
 });
+ScrollReveal().reveal('.article-card', {
+  ...scrollRevealOption,
+  origin: 'bottom',
+  delay: 500,
+});
 
 //Swiper handling
 const swiper = new Swiper('.swiper', {

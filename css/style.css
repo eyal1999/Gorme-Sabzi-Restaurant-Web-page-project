@@ -152,7 +152,7 @@ nav {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 4.5rem;
-  color: rgb(163, 99, 170);
+  color: var(--text-dark);
   text-align: center;
 }
 .header__content p {
