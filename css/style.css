@@ -714,42 +714,79 @@ nav {
   transform: translateY(-50%);
   position: fixed;
   z-index: 100;
+  margin-left: 0.2%;
 }
 .icons a {
   color: white;
 }
-.icons ul {
-  padding: initial;
-}
+
 .icons ul li {
   width: 40px;
   height: 40px;
-  list-style-type: none;
   padding-left: 12px;
   padding-top: 6px;
   margin-top: 5px;
   color: #fff;
+  border-radius: 50%;
 }
 
 .facebook {
   background: #3b5998;
 }
+.icons ul li.facebook:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 150px;
+  transition: 1s;
+}
 .instagram {
-  background: #ff4800;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.icons ul li.instagram:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 150px;
+  transition: 1s;
 }
 .phone {
   background: rgb(1, 84, 86);
 }
-.order {
-  background: rgb(2%, 72%, 89%);
+.icons ul li.phone:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 130px;
+  transition: 1s;
 }
-.navigate {
+.order {
   background: rgb(12%, 60%, 37%);
 }
-.icons ul li:hover {
+.icons ul li.order:hover {
+  border-radius: 0%;
   padding-left: 30px;
-  width: 50px;
+  width: 130px;
   transition: 1s;
+}
+.navigate {
+  background: rgb(2%, 72%, 89%);
+}
+.icons ul li.navigate:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 140px;
+  transition: 1s;
+}
+
+.ficons-label {
+  position: absolute;
+  padding-left: 5%;
 }
 .media-spotlight {
   text-align: center;
@@ -824,4 +861,16 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.ficons-label {
+  white-space: nowrap;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover Effect */
+.ficons-item:hover .ficons-label {
+  transform: translateX(0);
+  opacity: 1;
 }
