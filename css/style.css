@@ -717,7 +717,12 @@ nav {
   margin-left: 0.2%;
 }
 .icons a {
+  display: flex; /* Align the icon and text horizontally */
+  align-items: center;
   color: white;
+  text-decoration: none; /* Remove underline */
+  height: 100%;
+  width: 100%;
 }
 
 .icons ul li {
@@ -725,19 +730,39 @@ nav {
   height: 40px;
   padding-left: 12px;
   padding-top: 6px;
+  padding-bottom: 6px;
   margin-top: 5px;
   color: #fff;
   border-radius: 50%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  position: relative; /* Ensure the text stays within the li's bounds */
+  overflow: hidden; /* Prevent overflow issues */
+  transition: all 0.5s ease; /* Smooth animations */
 }
-
+.icons ul li:hover {
+  width: 150px; /* Expand the entire li element, not just the icon or text */
+  border-radius: 0%; /* Square shape on hover */
+=======
+>>>>>>> 0c52887dabe033e4227d0f92de77e77c11927e45
+>>>>>>> 31d7a0ac3d34099a0b1b755e06ed4c4c6b15f3ac
+}
 .facebook {
   background: #3b5998;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 31d7a0ac3d34099a0b1b755e06ed4c4c6b15f3ac
 .icons ul li.facebook:hover {
   border-radius: 0%;
   padding-left: 30px;
   width: 150px;
   transition: 1s;
+<<<<<<< HEAD
 }
 .instagram {
   background: linear-gradient(
@@ -755,10 +780,35 @@ nav {
   padding-left: 30px;
   width: 150px;
   transition: 1s;
+=======
+>>>>>>> 31d7a0ac3d34099a0b1b755e06ed4c4c6b15f3ac
 }
+>>>>>>> 0c52887dabe033e4227d0f92de77e77c11927e45
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+<<<<<<< HEAD
+=======
+}
+
+.icons li.instagram:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 150px;
+  transition: 1s;
+>>>>>>> 0c52887dabe033e4227d0f92de77e77c11927e45
+}
+
 .phone {
   background: rgb(1, 84, 86);
 }
+<<<<<<< HEAD
 .icons ul li.phone:hover {
   border-radius: 0%;
   padding-left: 30px;
@@ -769,11 +819,48 @@ nav {
   background: rgb(12%, 60%, 37%);
 }
 .icons ul li.order:hover {
+=======
+<<<<<<< HEAD
+
+.order {
+  background: rgb(12%, 60%, 37%);
+}
+
+.navigate {
+  background: rgb(2%, 72%, 89%);
+}
+
+.ficons-label {
+  padding-left: 5%;
+  display: inline-block;
+  white-space: nowrap; /* Prevent wrapping of the text */
+  overflow: hidden;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Smooth fade-in effect */
+}
+.icons ul li:hover .ficons-label {
+  opacity: 1; /* Make the text visible */
+=======
+.icons ul li.phone:hover {
+>>>>>>> 31d7a0ac3d34099a0b1b755e06ed4c4c6b15f3ac
   border-radius: 0%;
   padding-left: 30px;
   width: 130px;
   transition: 1s;
 }
+<<<<<<< HEAD
+=======
+.order {
+  background: rgb(12%, 60%, 37%);
+}
+.icons ul li.order:hover {
+  border-radius: 0%;
+  padding-left: 30px;
+  width: 130px;
+  transition: 1s;
+>>>>>>> 0c52887dabe033e4227d0f92de77e77c11927e45
+}
+>>>>>>> 31d7a0ac3d34099a0b1b755e06ed4c4c6b15f3ac
 .navigate {
   background: rgb(2%, 72%, 89%);
 }
